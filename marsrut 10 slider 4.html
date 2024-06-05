@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maršruts līdz universitātei</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dark-mode {
+            background-color: #000000;
+            color: #000000;
+        }
+        .dark-mode nav {
+            background-color: #333333;
+        }
+        .dark-mode a {
+            color: #ffffff;
+        }
+        .dark-mode .bg-white {
+            background-color: #333333;
+        }
+        .dark-mode .border-gray-300 {
+            border-color: #666666;
+        }
+        .dark-mode .text-gray-700 {
+            color: #ffffff;
+        }
+        .dark-mode .text-gray-700 h1,
+        .dark-mode .text-gray-700 h2 {
+            color: #ffffff;
+        }
+        .dark-mode button {
+            color: #ffffff;
+            background-color: #555555;
+        }
+        .dark-mode text-2xl font-bold h1 {
+            color: #ffffff;
+        }
+        .dark-mode .bg-gray-100 {
+            color: #ff0000;
+            background-color: #ff0000;
+        }
+        body.dark-mode {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        body {
+            background-color: #ffffff;
+        }
+        .text-gray-700 {
+            color: #4a5568;
+            margin-top: 1rem;
+            text-indent: 2em;
+        }
+        body, html {
+            height: 200%;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+
+
+
+
+        .slider {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Высота слайдера во весь экран */
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    margin-top: 6px;
+    display: flex;
+    width: calc(91% * 10); /* Ширина всех слайдов */
+    animation: scroll 20s linear infinite;
+    gap: 10px; /* Пробел между слайдами */
+}
+
+.slide {
+    width: calc((10% - 90px) / 5); /* Ширина слайда с учетом пробелов (5 видимых слайдов и 10px пробелы между ними) */
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Масштабирование изображения, чтобы заполнить контейнер */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-10% - 50px)); /* Ширина всех видимых слайдов и пробелы */
+    }
+}
+
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="bg-blue-200 p-4">
+        <ul class="flex justify-around">
+            <li><a class="text-gray-700" href="#marsruts">MARSRUTS</a></li>
+            <li><a class="text-gray-700" href="#kāpēc">KĀPĒC LU DF?</a></li>
+            <li><a class="text-gray-700" href="#prieksmeti">MĪĻĀKIE PRIEKSMETI</a></li>
+            <li><a class="text-gray-700" href="#e-resursi">E - RESURSI</a></li>
+        </ul>
+    </nav>
+
+    <div class="flex justify-center items-center bg-white h-64 mt-4 mx-4 border border-gray-300">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+                <div class="slide"><img alt="University" src="univers.jpg"/></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="text-center mt-8">
+        <h1 id="marsruts" class="text-2xl font-bold">Maršruts līdz universitātei 😱😎🏁</h1>
+    </div>
+
+    <div class="max-w-4xl mx-auto mt-8">
+        <p class="text-gray-700">
+            Marupes dome kā vietējās pašvaldības iestāde jau ilgu laiku spēlē nozīmīgu lomu novada pārvaldībā un attīstībā.
+            Domes ēka, kas atrodas Mārupes centrā, tika pabeigta 2006. gadā.
+        </p>
+        <p class="text-gray-700">
+            Šī moderna ēka tika projektēta ar mērķi nodrošināt efektīvu un ērtu vidi pašvaldības darbībai, kā arī iedzīvotāju apkalpošanai.
+            Ēkas arhitektūra ir veidota tā, lai tā būtu gan funkcionāla, gan estētiski pievilcīga, iekļaujoties apkārtējā vidē.
+            Šī ēka kalpo kā administratīvais centrs, kurā tiek pieņemti lēmumi par novada attīstību, rīkotas sanāksmes un notiek dažādi sabiedriskie pasākumi.
+        </p>
+        <p class="text-gray-700">
+            Katru reizi, braucot uz universitāti, es vēroju Mārupes domi no autobusa loga. Manuprāt, tā ir skaista ēka, kuru ir vērts ievērot. Tā ir veidota no dzelteniem smilškrāsas ķieģeļiem. Dzeltenie toņi man asociējas ar komfortu un prieku. Tāpēc skats no loga uz Mārupes domi uzlabo manu garastāvokli.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Mārupes dome" class="w-1/2 h-auto" src="dome.jpg"/>
+            <img alt="Mārupes dome" class="w-1/2 h-auto" src="dome.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4">
+            Tornjakalna apaļais tilts pāri dzelzceļam ir zināms objekts šajā apkaimē. Kopš bērnības man ļoti patika šis tilts. Galvenais, manuprāt, ar ko šis tilts ir ievērojams, ir tas, ka neparastās formas dēļ, pārbraucot pāri, sākumā notiek straujš kāpiens uz augšu, bet pēc tam straujš kritiens lejup. Kad man bija 4-8 gadi un es vēl biju bērns bez laba vestibulārā aparāta, braucot augšā un strauji lejup, mani regulāri stipri šūpoja uz šī tilta, sajūtas bija kā amerikāņu kalniņos, palielinājās adrenalīns, sāka griezties galva. Taču, pieaugot, šis efekts arvien vairāk samazinājās. Kaut kur 11 vai 12 gadu vecumā šīs sajūtas pilnībā izzuda. Bet atmiņas par to palikušas ļoti spilgtas. Tāpēc joprojām katru reizi, braucot pāri šim tiltam, es atceros šīs sajūtas un priecājos.
+        </p>
+        <p class="text-gray-700">
+            Nesen, šī gada pavasara sākumā, Latvijas ceļu piemērotības uzraudzības ekspertīze atklāja, ka Tornjakalna tilts varētu nebūt piemērots lietošanai un varētu sākt sabrukt jebkurā nenoteiktā brīdī tuvākajā nākotnē. Pēc tam tilta satiksme tika pārtraukta uz 3 dienām, lai veiktu detalizētu ekspertīzi, kas atklāja, ka satiksme uz tilta var turpināties, bet automašīnām, kuru svars pārsniedz 2 tonnas, ir aizliegta iebraukšana. Tāpēc tagad autobusa maršruts ir mainīts, un pa ceļam uz universitāti es vairs nebraucu pāri tiltam, tomēr sabiedriskais transports, apbraucot tiltu, joprojām brauc tam garām, un tilts ir redzams pa logu.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Tornjakalna tilts" class="w-1/2 h-auto" src="Tilts.jpg"/>
+            <img alt="Tornjakalna tilts" class="w-1/2 h-auto" src="Tilts.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4">
+            Āgenskalna tirgus ir viens no slavenākajiem un vecākajiem tirgiem Rīgā, Latvijā. Atrodoties vēsturiskajā Āgenskalna rajonā, tirgus tika atvērts 1898. gadā un kopš tā laika ir svarīgs pilsētas tirdzniecības un kultūras centrs. Tirgus ēka ir būvēta eklektisma stilā un ir viens no labākajiem 19. gadsimta beigu Rīgas arhitektūras piemēriem.
+        </p>
+        <p class="text-gray-700">
+            Gadu gaitā tirgus kalpoja kā tikšanās vieta vietējiem iedzīvotājiem un tirgotājiem, piedāvājot svaigus produktus, gaļu, zivis, piena produktus, konditorejas izstrādājumus un citus preces. Mūsdienās Āgenskalna tirgus ir mūsdienīga tirdzniecības vieta, kur var atrast gan tradicionālos latviešu produktus, gan starptautiskās delikateses. Turklāt šeit bieži notiek dažādi kultūras pasākumi, gadatirgi un festivāli, padarot to par populāru apmeklējuma vietu gan vietējiem iedzīvotājiem, gan tūristiem. Āgenskalna tirgus ir ne tikai vieta, kur iepirkties, bet arī svarīgs kultūras centrs, kas saglabā un attīsta Rīgas tirdzniecības un gastronomijas tradīcijas.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Āgenskalna tirgus" class="w-1/2 h-auto" src="rinok.jpg"/>
+            <img alt="Āgenskalna tirgus" class="w-1/2 h-auto" src="rinok.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4">
+            Friča Brīvzemnieka pamatskolas ēka celta 1910.-1911. gadā pēc arhitekta Reinholda Šmēlinga projekta. Ēkai ir četri stāvi un pagrabs, un tā sākotnēji bija paredzēta Rīgas pilsētas amatniecības skolai Pārdaugavā un publiskajai bibliotēkai. Ēkas plānojums ir veidots tā, lai klasēs būtu rīta saule, bet plašajos gaiteņos - pēcpusdienas un vakara saule. Skolas galvenā ieeja ir no Dārtas ielas, bet tautas lasītavas ieeja ir no Zeļļu ielas. Sī ēka bija paredzēta 600 skolēniem. Izgatavota vēlīnā jūgendstila stilā. Atrodas pavisam netālu no Āgenskalna tirgus. Man patīk šī ēka, tā ir liela un iedvesmojoša. Ir patīkami uz to skatīties.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Friča Brīvzemnieka pamatskola" class="w-1/2 h-auto" src="skola.jpg"/>
+            <img alt="Friča Brīvzemnieka pamatskola" class="w-1/2 h-auto" src="skola.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4">
+            Zināmā Nacionālā bibliotēka neprasa iepazīstināšanu ar informāciju. Tā ir viena no vispazīstamākajām ēkām Rīgā un Latvijā. Tai ir arī otrs nosaukums "Gaismas pils", un tas nav nejauši. Papildus tam, ka ēka pati par sevi ir balta un atgādina gaismu, tā ir arī bibliotēka, zināšanu un informācijas templis, un zināšanas ir gaisma. Man arī patīk šī celtne. Tā ir ļoti liela un iedvesmojoša.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Nacionālā bibliotēka" class="w-1/2 h-auto" src="sveta.jpg"/>
+            <img alt="Nacionālā bibliotēka" class="w-1/2 h-auto" src="sveta.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4">
+            Rīgas centrs, vieta, kur apstājas autobuss, šeit es izkāpju un eju kājām uz universitātes ēku. Ļoti skaistas ielas, parki un tā tālāk ir sastopami manā ceļā.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Rīgas centrs" class="w-1/2 h-auto" src="stock.jpg"/>
+            <img alt="Rīgas centrs" class="w-1/2 h-auto" src="stock.jpg"/>
+        </div>
+
+        <br>
+        <p class="text-gray-700 mt-4"></p>
+        <p class="text-gray-700 mt-4">
+            Latvijas Universitāte, mana galamērķa galapunkts. Latvijas Universitātes ēka iedvesmo ne mazāk kā iepriekšējās, jo vienā ēkā saplūst vēsture, grotesks un tieksme uz zināšanām un zinātni - tas ir vienkārši maģija. Pateicoties stingrai arhitektūrai ārpusē un plašajai telpai iekšā, ienākot universitātē, es vienmēr jūtos kā peldēšanās jaunās zināšanu pasaules un sajūtas saistībā ar vēsturi un zinātni. Man ļoti patīk mūsu Latvijas Universitātes ēka, un es esmu priecīgs, ka mācos tieši šeit.
+        </p>
+        <div class="flex mt-4">
+            <img alt="Latvijas Universitāte" class="w-1/2 h-auto" src="University.jpg"/>
+            <img alt="Latvijas Universitāte" class="w-1/2 h-auto" src="University.jpg"/>
+        </div>
+    </div>
+
+    <br>
+    <div class="text-center mt-8">
+        <h2 id="kāpēc" class="text-xl font-bold">Kāpēc izvēlējos LU Datorikas fakultāti?</h2>
+    </div>
+    <div class="max-w-4xl mx-auto mt-4">
+        <p class="text-gray-700">
+            Sākumā, kad es pabeidzu skolu, es nezināju precīzi, ko vēlos darīt vai uz ko vēlos mācīties. Manā galvā bija daudz dažādu profesiju no radošajām līdz tehnikas nozarēm. Bet finanšu jautājumu dēļ man šķita labāk vispirms pamēģināt mācīties programmētājam, un ja nepatiks, mainīt virzienu.
+        </p>
+        <p class="text-gray-700">
+            Tomēr izrādījās, ka es esmu pilnīgi apmierināts ar savu izvēli. Sākumā es biju biedēts, ka man nepatiks, bet galu galā man patika šis virziens. Latvijas Universitāte ir ļoti labs variants, lai apgūtu programmēšanas un informācijas tehnoloģiju jomu. Pirmkārt, tāpēc, ka Latvijas Universitātē ir ļoti plaša programma. Mēs neapmācāmies tikai konkrētā programmēšanas virzienā, kā citos universitātēs, bet tiekamies ar visiem šīs jomas aspektiem, no neironu tīkliem līdz tīmekļa dizainam, no programmēšanas līdz datoru arhitektūrai. Un pēc mācību beigšanas varēsim objektīvi novērtēt, kas mums vislabāk piemērots. Tāpēc es ieteiktu LU visiem citiem.
+        </p>
+    </div>
+
+    <br>
+    <div class="text-center mt-8">
+        <h2 id="prieksmeti" class="text-xl font-bold">Mani mīļākie priekšmeti un mācību mērķi!</h2>
+    </div>
+    <div class="max-w-4xl mx-auto mt-4">
+        <p class="text-gray-700">
+            Mīļākie priekšmeti ir sarežģīts jautājums. Es pats vēlētos zināt atbildi uz to, jo visi priekšmeti ir interesanti vienā vai otrā mērā, izņemot, protams, garlaicīgās matemātikas, kas dažkārt mēdz būt. Lai gan pat matemātika var būt interesanta.
+            Taču jau tagad es varu teikt, kura joma man visvairāk patīk, un tā ir mākslīgā intelekta un neironu tīklu, un mašīnmācīšanās kopumā. Pirmo reizi ar šo jomu saskāros otrajā universitātes kursā, un man tas ļoti patika. Tas ir kā īsta burvība, apmācīt kodu pašam pieņemt lēmumus un domāt, man tas šķita un šķiet īsta maģija.
+        </p>
+        <p class="text-gray-700">
+            Tomēr, diemžēl, šajā jomā ir nav tik viegli atrast darbu. Latvijā pašlaik nav daudz projektu, kas nodarbotos ar šādām tehnoloģijām, un tāpēc, lai nonāktu uzņēmumā, kas ar to strādā, jābūt patiešām labam speciālistam ar lielu darba pieredzi un zināšanām. Tomēr es joprojām nebeidzu interesēties par šo jomu, vismaz priekš sevis, vēlāk šajā virzienā strādāšu. Vismaz tas noteikti nebūs lieki. Bet pagaidām varu koncentrēties uz programmētāja profesijas iegūšanu.
+        </p>
+    </div>
+
+    <br>
+    <div class="text-center mt-8">
+        <h2 id="e-resursi" class="text-xl font-bold">E-resursi, kurus izmantojam mācības laikā:</h2>
+    </div>
+    <div class="max-w-4xl mx-auto mt-4">
+        <p class="text-gray-700">
+            <b><a href="https://luis.lu.lv" target="_blank">luis.lu.lv</a></b> - šī ir vietne, kurā mums ievieto atzīmes žurnālos un kuru mēs izmantojam saziņai ar universitātes administrāciju. Kā arī saņemt svarīgus jaunumus saistībā ar studijām.
+        </p>
+        <p class="text-gray-700">
+            <b><a href="https://estudijas.lu.lv" target="_blank">estudijas.lu.lv</a></b> - šī ir vietne, kuru mēs izmantojam mācībām, mācību materiālu iegūšanai, testu nodošanai un saziņai ar pasniedzējiem.
+        </p>
+    </div>
+
+    <div class="text-center mt-8">
+        <button class="gradient-button" onclick="toggleDarkMode()">DARK MODE</button>
+    </div>
+
+    <div class="max-w-4xl mx-auto mt-4">
+        <p class="text-gray-700">
+            <b><a> Autors: </a></b> <a href="" target="_blank">Sergejs Kiseļovs sk21115</a> </p>
+    </div>
+    <br>
+
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            const toggleButton = document.querySelector('.gradient-button');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'White Mode';
+            } else {
+                toggleButton.textContent = 'Dark Mode';
+            }
+            updateBackgroundColor();
+        }
+
+        function updateBackgroundColor() {
+            const lightColors = ['#ffffff', '#dfb491', '#c996ab', '#c9d2eb', '#c9cbeb'];
+            const darkColors = ['#000000', '#726564', '#000000', '#726564', '#000000'];
+            const colors = document.body.classList.contains('dark-mode') ? darkColors : lightColors;
+            const scrollPercentage = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+            const colorIndex = Math.floor(scrollPercentage * (colors.length - 1));
+            const nextColorIndex = colorIndex + 1 < colors.length ? colorIndex + 1 : colorIndex;
+
+            const currentColor = colors[colorIndex];
+            const nextColor = colors[nextColorIndex];
+
+            const currentColorRGB = hexToRgb(currentColor);
+            const nextColorRGB = hexToRgb(nextColor);
+
+            const blendPercentage = (scrollPercentage * (colors.length - 1)) % 1;
+
+            const blendedColor = blendColors(currentColorRGB, nextColorRGB, blendPercentage);
+
+            document.body.style.backgroundColor = `rgb(${blendedColor.r}, ${blendedColor.g}, ${blendedColor.b})`;
+        }
+
+        function hexToRgb(hex) {
+            const bigint = parseInt(hex.slice(1), 16);
+            return {
+                r: (bigint >> 16) & 255,
+                g: (bigint >> 8) & 255,
+                b: bigint & 255
+            };
+        }
+
+        function blendColors(color1, color2, percentage) {
+            const r = Math.round(color1.r + percentage * (color2.r - color1.r));
+            const g = Math.round(color1.g + percentage * (color2.g - color1.g));
+            const b = Math.round(color1.b + percentage * (color2.b - color1.b));
+            return { r, g, b };
+        }
+
+        document.addEventListener('scroll', updateBackgroundColor);
+
+        // Set initial background color
+        updateBackgroundColor();
+    </script>
+</body>
+</html>
